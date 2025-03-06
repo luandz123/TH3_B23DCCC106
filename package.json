@@ -37,7 +37,8 @@
     "serve": "umi-serve",
     "tsc": "tsc --noEmit",
     "prepare": "husky install",
-    "sentry:sourcemaps": ""
+    "sentry:sourcemaps": "",
+    "start":"cross-env NODE_OPTIONS='--openssl-legacy-provider' UMI_ENV=dev umi dev"
   },
   "lint-staged": {
     "**/*.less": "stylelint --syntax less",
