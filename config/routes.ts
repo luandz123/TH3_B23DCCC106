@@ -65,6 +65,18 @@
 		component: './BAI_TH_3', // Thư mục pages/BAI_TH_3
 		icon: 'TeamOutlined',
 	},
+	{
+		path: '/todolist',
+		name: 'Todolist',
+		component: './todolist',
+	},
+	{
+		path: '/quanlylichhen',
+		name: 'Quản lý lịch hẹn',
+		component: './BAI_2/Quanlylichhen.js',
+	},
+
+
 
 	// DANH MUC HE THONG
 	// {
