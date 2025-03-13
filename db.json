@@ -1,21 +1,12 @@
 {
   "nhan_vien": [
     {
-      "id": "3709",
-      "ten": "Vũ Minh Chủ",
-      "so_khach_toi_da_moi_ngay": 222,
-      "lich_lam_viec": {
-        "Thứ 5": "02:00-19:42",
-        "Thứ 2": "03:00-04:00"
       }
     }
   ],
   "dich_vu": [
     {
-      "id": "dv002",
-      "ten": "Massage thư giãn",
-      "gia": 250000,
-      "thoi_gian_thuc_hien": "70p"
+
     }
   ],
   "lich_hen": [
@@ -48,7 +39,6 @@
       "id_lich_hen": "lh001",
       "id_nhan_vien": "nv001",
       "ten_khach_hang": "Lê Văn C",
-      "diem": 4.5,
       "binh_luan": "Nhân viên nhiệt tình, cắt tóc đẹp!",
       "phan_hoi_nhan_vien": "Cảm ơn anh đã ủng hộ!",
       "thoi_gian_tao": "2025-03-15T10:45:00Z"
@@ -58,10 +48,6 @@
       "id_lich_hen": "lh002",
       "id_nhan_vien": "nv002",
       "ten_khach_hang": "Phạm Thị D",
-      "diem": 3,
-      "binh_luan": "Dịch vụ ổn nhưng hơi chậm",
-      "phan_hoi_nhan_vien": null,
-      "thoi_gian_tao": "2025-03-16T15:00:00Z"
     }
   ],
   "thong_ke": {

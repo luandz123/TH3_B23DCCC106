@@ -30,11 +30,34 @@
 		component: './TienIch/GioiThieu',
 		hideInMenu: true,
 	},
+	// {
+	// 	path: '/random-user',
+	// 	name: 'RandomUser',
+	// 	component: './RandomUser',
+	// 	icon: 'ArrowsAltOutlined',
+	// },
 	{
-		path: '/random-user',
-		name: 'RandomUser',
-		component: './RandomUser',
-		icon: 'ArrowsAltOutlined',
+		name: "Đánh giá",
+		routes: [
+			{
+				path: '/danh-gia-nhan-vien',
+				name: 'Đánh giá trung bình',
+				component: './BAI_TH_3/BAI3/NhanVien',
+				icon: 'ArrowsAltOutlined',
+			},
+			{
+				path: '/danh-gia-dich-vu',
+				name: 'Đánh giá dịch vụ',
+				component: './BAI_TH_3/BAI3/DichVu',
+				icon: 'ArrowsAltOutlined',
+			},
+			{
+				path: '/phan-hoi-danh-gia',
+				name: 'Phản hồi đánh giá',
+				component: './BAI_TH_3/BAI3/PhanHoi',
+				icon: 'ArrowsAltOutlined',
+			},
+		]
 	},
 	{
 		path: '/quan-ly-nv-dv',  // đường dẫn này có thể tuỳ chỉnh
