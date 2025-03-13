@@ -36,6 +36,12 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/quan-ly-nv-dv',  // đường dẫn này có thể tuỳ chỉnh
+		name: 'Quản lý NV & DV',
+		component: './BAI_TH_3', // Thư mục pages/BAI_TH_3
+		icon: 'TeamOutlined',
+	},
 
 	// DANH MUC HE THONG
 	// {
