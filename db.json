@@ -1,0 +1,194 @@
+{
+  "nhan_vien": [
+    {
+      "id": "nv001",
+      "ten": "Nguyễn Văn A",
+      "so_khach_toi_da_moi_ngay": 10,
+      "lich_lam_viec": {
+        "thu_hai": "09:00-17:00",
+        "thu_ba": "09:00-17:00",
+        "thu_tu": "09:00-17:00",
+        "thu_nam": "09:00-17:00",
+        "thu_sau": "09:00-17:00",
+        "thu_bay": "nghi",
+        "chu_nhat": "nghi"
+      }
+    },
+    {
+      "id": "nv002",
+      "ten": "Trần Thị B",
+      "so_khach_toi_da_moi_ngay": 8,
+      "lich_lam_viec": {
+        "thu_hai": "13:00-21:00",
+        "thu_ba": "13:00-21:00",
+        "thu_tu": "nghi",
+        "thu_nam": "13:00-21:00",
+        "thu_sau": "13:00-21:00",
+        "thu_bay": "09:00-17:00",
+        "chu_nhat": "nghi"
+      }
+    }
+  ],
+  "dich_vu": [
+    {
+      "id": "dv001",
+      "ten": "Cắt tóc nam",
+      "gia": 100000,
+      "thoi_gian_thuc_hien": "30p"
+    },
+    {
+      "id": "dv002",
+      "ten": "Massage thư giãn",
+      "gia": 250000,
+      "thoi_gian_thuc_hien": "60p"
+    },
+    {
+      "id": "dv003",
+      "ten": "Khám bệnh tổng quát",
+      "gia": 500000,
+      "thoi_gian_thuc_hien": "45p"
+    }
+  ],
+  "lich_hen": [
+    {
+      "id": "lh001",
+      "ten_khach_hang": "Lê Văn C",
+      "so_dien_thoai": "0909123456",
+      "id_nhan_vien": "nv001",
+      "id_dich_vu": "dv001",
+      "ngay": "2025-03-15",
+      "gio": "10:00",
+      "trang_thai": "da_xac_nhan",
+      "thoi_gian_tao": "2025-03-12T08:00:00Z"
+    },
+    {
+      "id": "lh002",
+      "ten_khach_hang": "Phạm Thị D",
+      "so_dien_thoai": "0918234567",
+      "id_nhan_vien": "nv002",
+      "id_dich_vu": "dv002",
+      "ngay": "2025-03-16",
+      "gio": "14:00",
+      "trang_thai": "cho_duyet",
+      "thoi_gian_tao": "2025-03-12T09:00:00Z"
+    },
+    {
+      "id": "lh003",
+      "ten_khach_hang": "Phạm Thị D",
+      "so_dien_thoai": "0918234567",
+      "id_nhan_vien": "nv002",
+      "id_dich_vu": "dv002",
+      "ngay": "2025-03-16",
+      "gio": "14:00",
+      "trang_thai": "hoan_thanh",
+      "thoi_gian_tao": "2025-03-12T09:00:00Z"
+    }
+  ],
+  "danh_gia": [
+    {
+      "id": "dg001",
+      "id_lich_hen": "lh001",
+      "id_nhan_vien": "nv001",
+      "ten_khach_hang": "Lê Văn C",
+      "diem": "4.5",
+      "binh_luan": "Nhân viên nhiệt tình, cắt tóc đẹp!",
+      "phan_hoi_nhan_vien": "Cảm ơn anh đã ủng hộ!",
+      "thoi_gian_tao": "2025-03-15T10:45:00Z"
+    },
+    {
+      "id": "dg001",
+      "id_lich_hen": "lh001",
+      "id_nhan_vien": "nv001",
+      "ten_khach_hang": "Lê Văn C",
+      "diem": "44",
+      "binh_luan": "Nhân viên nhiệt tình, cắt tóc đẹp!",
+      "phan_hoi_nhan_vien": "Cảm ơn anh đã ủng hộ!",
+      "thoi_gian_tao": "2025-03-15T10:45:00Z"
+    },
+    {
+      "id": "dg002",
+      "id_lich_hen": "lh002",
+      "id_nhan_vien": "nv002",
+      "ten_khach_hang": "Phạm Thị D",
+      "diem": "3",
+      "binh_luan": "Dịch vụ ổn nhưng hơi chậm",
+      "phan_hoi_nhan_vien": "ok em cảm ơn ạ",
+      "thoi_gian_tao": "2025-03-16T15:00:00Z"
+    },
+    {
+      "id": "6d65",
+      "id_lich_hen": "lh003",
+      "id_nhan_vien": "nv002",
+      "ten_khach_hang": "Phạm Thị D",
+      "diem": "12",
+      "binh_luan": "Hay lamws ddm",
+      "phan_hoi_nhan_vien": "ok em cảm ơn"
+    },
+    {
+      "id": "7b23",
+      "id_lich_hen": "lh003",
+      "id_nhan_vien": "nv002",
+      "ten_khach_hang": "Phạm Thị D",
+      "diem": "100",
+      "binh_luan": "Hay lamws ddmmmmmmmmmmm",
+      "phan_hoi_nhan_vien": "ok em cảm ơn ạ"
+    },
+    {
+      "id": "e6fc",
+      "id_lich_hen": "lh003",
+      "id_nhan_vien": "nv002",
+      "ten_khach_hang": "Phạm Thị D",
+      "diem": "300",
+      "binh_luan": "Hay lamws ddmmmmmmmmmmm",
+      "phan_hoi_nhan_vien": ""
+    }
+  ],
+  "thong_ke": {
+    "thong_ke_lich_hen": {
+      "theo_ngay": {
+        "2025-03-15": {
+          "tong_so": 5,
+          "hoan_thanh": 3,
+          "huy": 1,
+          "cho_duyet": 1
+        },
+        "2025-03-16": {
+          "tong_so": 3,
+          "hoan_thanh": 1,
+          "huy": 0,
+          "cho_duyet": 2
+        }
+      },
+      "theo_thang": {
+        "2025-03": {
+          "tong_so": 20,
+          "hoan_thanh": 12,
+          "huy": 3,
+          "cho_duyet": 5
+        }
+      }
+    },
+    "thong_ke_doanh_thu": {
+      "theo_dich_vu": {
+        "dv001": {
+          "tong_doanh_thu": 500000,
+          "so_lan": 5
+        },
+        "dv002": {
+          "tong_doanh_thu": 750000,
+          "so_lan": 3
+        }
+      },
+      "theo_nhan_vien": {
+        "nv001": {
+          "tong_doanh_thu": 600000,
+          "so_lan": 6
+        },
+        "nv002": {
+          "tong_doanh_thu": 650000,
+          "so_lan": 4
+        }
+      }
+    }
+  }
+}
