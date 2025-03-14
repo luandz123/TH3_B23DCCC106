@@ -1,122 +1,238 @@
 {
-  "khoiKienThuc": [
+  "nhan_vien": [
     {
-      "id": "1",
-      "tenKhoi": "Tổng quan"
-    },
-    {
-      "id": "2",
-      "tenKhoi": "Chuyên sâu"
-    }
-  ],
-  "monHoc": [
-    {
-      "id": "1",
-      "maMon": "CS101",
-      "tenMon": "Nhập môn Công nghệ thông tin",
-      "soTinChi": 3,
-      "khoiKienThucId": 1
-    },
-    {
-      "id": "2",
-      "maMon": "CS201",
-      "tenMon": "Cấu trúc dữ liệu và giải thuật",
-      "soTinChi": 4,
-      "khoiKienThucId": 2
-    }
-  ],
-  "cauHoi": [
-    {
-      "id": "1",
-      "noiDung": "Trình bày các thành phần cơ bản của máy tính?",
-      "mucDo": "0",
-      "monHocId": 1,
-      "khoiKienThucId": 1
-    },
-    {
-      "noiDung": "Mô tả thuật toán sắp xếp nhanh (Quick Sort)?",
-      "monHocId": "1",
-      "khoiKienThucId": "2",
-      "mucDo": "1",
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "noiDung": "So sánh ngôn ngữ lập trình biên dịch và thông dịch?",
-      "mucDo": "2",
-      "monHocId": 1,
-      "khoiKienThucId": 1
-    },
-    {
-      "noiDung": "HOW OLD ARE YOU",
-      "monHocId": 1,
-      "khoiKienThucId": 1,
-      "mucDo": "1",
-      "id": "0d97"
-    },
-    {
-      "noiDung": "thay sinh nam bao nhieu ạ",
-      "monHocId": 2,
-      "khoiKienThucId": 1,
-      "mucDo": "1",
-      "id": "5d1e"
-    },
-    {
-      "id": "6e91",
-      "noiDung": "gg",
-      "monHocId": 1,
-      "khoiKienThucId": 1,
-      "mucDo": "1"
-    }
-  ],
-  "deThi": [
-    {
-      "id": "1",
-      "tenDe": "Đề thi Nhập môn CNTT - 2025",
-      "monHocId": 1,
-      "cauHoiIds": [
-        1,
-        3
-      ],
-      "ngayTao": "2025-03-06"
-    },
-    {
-      "id": "5b95",
-      "tenDe": "ggg",
-      "monHocId": 2,
-      "moTa": "ggg",
-      "thoiGian": 111,
-      "cauHoiIds": [],
-      "ngayTao": "2025-03-06"
-    },
-    {
-      "id": "cce4",
-      "tenDe": "ggg",
-      "monHocId": 1,
-      "moTa": "rrrr",
-      "thoiGian": 111,
-      "cauHoiIds": [],
-      "ngayTao": "2025-03-06"
-    }
-  ],
-  "cauTrucDeThi": [
-    {
-      "id": "1",
-      "monHocId": 1,
-      "cauHoiTheoMucDo": {
-        "Dễ": 1,
-        "Trung bình": 1,
-        "Khó": 0
+      "id": "nv001",
+      "ten": "Nguyễn Văn A",
+      "so_khach_toi_da_moi_ngay": 10,
+      "lich_lam_viec": {
+        "thu_hai": "09:00-17:00",
+        "thu_ba": "09:00-17:00",
+        "thu_tu": "09:00-17:00",
+        "thu_nam": "09:00-17:00",
+        "thu_sau": "09:00-17:00",
+        "thu_bay": "nghi",
+        "chu_nhat": "nghi"
       }
     },
     {
-      "id": "2",
-      "monHocId": 2,
-      "cauHoiTheoMucDo": {
-        "Dễ": 0,
-        "Trung bình": 0,
-        "Khó": 1
+      "id": "nv002",
+      "ten": "Trần Thị B",
+      "so_khach_toi_da_moi_ngay": 8,
+      "lich_lam_viec": {
+        "thu_hai": "13:00-21:00",
+        "thu_ba": "13:00-21:00",
+        "thu_tu": "nghi",
+        "thu_nam": "13:00-21:00",
+        "thu_sau": "13:00-21:00",
+        "thu_bay": "09:00-17:00",
+        "chu_nhat": "nghi"
       }
     }
-  ]
+  ],
+  "dich_vu": [
+    {
+      "id": "dv001",
+      "ten": "Cắt tóc nam",
+      "gia": 100000,
+      "thoi_gian_thuc_hien": "30p"
+    },
+    {
+      "id": "dv002",
+      "ten": "Massage thư giãn",
+      "gia": 250000,
+      "thoi_gian_thuc_hien": "60p"
+    },
+    {
+      "id": "dv003",
+      "ten": "Khám bệnh tổng quát",
+      "gia": 500000,
+      "thoi_gian_thuc_hien": "45p"
+    }
+  ],
+  "lich_hen": [
+    {
+      "id": "lh001",
+      "ten_khach_hang": "Lê Văn C",
+      "so_dien_thoai": "0909123456",
+      "id_nhan_vien": "nv001",
+      "id_dich_vu": "dv001",
+      "ngay": "2025-03-15",
+      "gio": "10:00",
+      "trang_thai": "da_xac_nhan",
+      "thoi_gian_tao": "2025-03-12T08:00:00Z"
+    },
+    {
+      "id": "lh002",
+      "ten_khach_hang": "Phạm Thị D",
+      "so_dien_thoai": "0918234567",
+      "id_nhan_vien": "nv002",
+      "id_dich_vu": "dv002",
+      "ngay": "2025-03-16",
+      "gio": "14:00",
+      "trang_thai": "cho_duyet",
+      "thoi_gian_tao": "2025-03-12T09:00:00Z"
+    }
+  ],
+  "danh_gia": [
+    {
+      "id": "dg001",
+      "id_lich_hen": "lh001",
+      "id_nhan_vien": "nv001",
+      "ten_khach_hang": "Lê Văn C",
+      "diem": 4.5,
+      "binh_luan": "Nhân viên nhiệt tình, cắt tóc đẹp!",
+      "phan_hoi_nhan_vien": "Cảm ơn anh đã ủng hộ!",
+      "thoi_gian_tao": "2025-03-15T10:45:00Z"
+    },
+    {
+      "id": "dg002",
+      "id_lich_hen": "lh002",
+      "id_nhan_vien": "nv002",
+      "ten_khach_hang": "Phạm Thị D",
+      "diem": 3,
+      "binh_luan": "Dịch vụ ổn nhưng hơi chậm",
+      "phan_hoi_nhan_vien": null,
+      "thoi_gian_tao": "2025-03-16T15:00:00Z"
+    }
+  ],
+  "thong_ke": {
+    "thong_ke_lich_hen": {
+      "theo_ngay": {
+        "2025-03-15": {
+          "tong_so": 5,
+          "hoan_thanh": 3,
+          "huy": 1,
+          "cho_duyet": 1
+        },
+        "2025-03-16": {
+          "tong_so": 3,
+          "hoan_thanh": 1,
+          "huy": 0,
+          "cho_duyet": 2
+        },
+        "2025-03-27": {
+          "tong_so": 1,
+          "hoan_thanh": 0,
+          "huy": 0,
+          "cho_duyet": 0
+        },
+        "2025-03-13": {
+          "tong_so": 1,
+          "hoan_thanh": 0,
+          "huy": 0,
+          "cho_duyet": 0
+        }
+      },
+      "theo_thang": {
+        "2025-03": {
+          "tong_so": 20,
+          "hoan_thanh": 12,
+          "huy": 3,
+          "cho_duyet": 5
+        }
+      }
+    },
+    "thong_ke_doanh_thu": {
+      "theo_dich_vu": {
+        "dv001": {
+          "tong_doanh_thu": 500000,
+          "so_lan": 5
+        },
+        "dv002": {
+          "tong_doanh_thu": 750000,
+          "so_lan": 3
+        },
+        "dv3": {
+          "tong_doanh_thu": 4343432243,
+          "so_lan": 1
+        },
+        "dv4": {
+          "tong_doanh_thu": 1,
+          "so_lan": 2
+        },
+        "dv5": {
+          "tong_doanh_thu": 100,
+          "so_lan": 1
+        },
+        "dv6": {
+          "tong_doanh_thu": 1,
+          "so_lan": 1
+        },
+        "dv_1741855181470": {
+          "tong_doanh_thu": 0,
+          "so_lan": 2
+        },
+        "dv_1741855265091": {
+          "tong_doanh_thu": 122333,
+          "so_lan": 33
+        },
+        "dv_1741855421383": {
+          "tong_doanh_thu": 2222,
+          "so_lan": 1
+        },
+        "dv_1741855501462": {
+          "tong_doanh_thu": 333,
+          "so_lan": 2222
+        },
+        "dv_1741855763179": {
+          "tong_doanh_thu": 22111,
+          "so_lan": 2
+        },
+        "dv_20250316": {
+          "tong_doanh_thu": 100,
+          "so_lan": 3
+        },
+        "dv_20250327": {
+          "tong_doanh_thu": 1,
+          "so_lan": 1
+        },
+        "dv_20250313": {
+          "tong_doanh_thu": 3333,
+          "so_lan": 1
+        }
+      },
+      "theo_nhan_vien": {
+        "nv001": {
+          "tong_doanh_thu": 600000,
+          "so_lan": 6
+        },
+        "nv002": {
+          "tong_doanh_thu": 650000,
+          "so_lan": 4
+        },
+        "nv_1741855181470": {
+          "tong_doanh_thu": 0,
+          "so_lan": 2
+        },
+        "nv_1741855265091": {
+          "tong_doanh_thu": 44444,
+          "so_lan": 33
+        },
+        "nv_1741855421383": {
+          "tong_doanh_thu": 22222,
+          "so_lan": 1
+        },
+        "nv_1741855501462": {
+          "tong_doanh_thu": 4444,
+          "so_lan": 2222
+        },
+        "nv_1741855763179": {
+          "tong_doanh_thu": 20222222222,
+          "so_lan": 2
+        },
+        "nv_20250316": {
+          "tong_doanh_thu": 100,
+          "so_lan": 3
+        },
+        "nv_20250327": {
+          "tong_doanh_thu": 0,
+          "so_lan": 1
+        },
+        "nv_20250313": {
+          "tong_doanh_thu": 1111,
+          "so_lan": 1
+        }
+      }
+    }
+  }
 }
