@@ -9,7 +9,7 @@ import {
   addService, 
   updateService, 
   deleteService 
-} from '@/services/BAI_TH_3/BAI1';
+} from '@/services/Bai_Th_3/BAI1';
 import { Employee, Service, Schedule } from '@/models/bai1';
 import EmployeeForm from './EmployeeForm';
 import ServiceForm from './ServiceForm';
